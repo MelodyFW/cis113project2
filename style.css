@@ -15,7 +15,9 @@ html{
 }
 
 header{
-    background-color: #e1ecff;
+    background-color: #b2ceff;
+    background-image: url(https://csnlinux.genesee.edu/~mwallac5/work/my%2520FL.jpg);
+    background-blend-mode: lighten;
 }
 
 nav{
