@@ -24,6 +24,12 @@ nav{
     font-size: large;
 }
 
+
+li img{
+width:5.5rem;
+height:3rem;
+}
+
 main {
     background-color: #ffffe3;
 }
