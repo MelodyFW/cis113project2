@@ -53,3 +53,8 @@ footer {
     background-color: #ffffee;
     display: inline-block;
 }
+
+#picture2 {
+      display: inline-block;
+      border: 3px silver solid;
+}
