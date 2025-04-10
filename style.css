@@ -16,8 +16,8 @@ html{
 
 header{
     background-color: #b2ceff;
-    background-image: url(images\background.jpg);
-    background-blend-mode: lighten;
+    background-image: url(images/background.jpg);
+    background-blend-mode: soft-light;
 }
 
 nav{
