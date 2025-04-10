@@ -47,3 +47,9 @@ footer {
 .footer-link:visited{
     color: #d9daff;
 }
+
+#picture {
+    border: 3px silver solid;
+    background-color: #ffffee;
+    display: inline-block;
+}
