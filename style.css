@@ -14,6 +14,13 @@ html{
     background-color: #e1ecff;
 }
 
+strong{
+    padding: 0.em em;
+    border: solid;
+    border-color: #072866;
+    background-color: #e1ecff;
+}
+
 header{
     background-color: #b2ceff;
     background-image: url(images/background.jpg);
@@ -24,6 +31,11 @@ nav{
     font-size: large;
 }
 
+@media screen and (max-width: 768px) {
+    nav{
+            display:100% ;
+    }  
+}
 
 .Home-logo{
     width:4.5em;
