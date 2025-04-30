@@ -69,38 +69,52 @@ footer {
     border: 3px silver solid;
     background-color: #ffffee;
     display: inline-block;
+    margin: 1em 1em 1em 1em;
 }
 
 #picture2 {
       display: inline-block;
       border: 3px silver solid;
+    margin: 1em 1em 1em 1em;
+}
+
+@media screen and (min-width: 992px) {
+    #sec{
+        display: flex;
+        justify-content:center;
+        align-items: center; 
+    }
 }
 
 @media screen and (max-width: 992px) {
     nav{
         justify-content:start;
-    }  
-}
-@media screen and (max-width: 768px) {
-    nav ul{
-        flex-wrap: wrap;
-    }  
-}
-@media screen and (max-width: 500px) {
-    nav{
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }  
-}
-
-@media screen and (max-width: 992px) {
-    body{
-        flex-wrap: wrap; 
+    } 
+    #sec{
+        display: flex;
+        justify-content:left;
+        align-items:left; 
     }
 }
 
 @media screen and (max-width: 768px) {
-    body{
-        flex-wrap: wrap; 
+    nav ul{
+        flex-wrap: wrap;
+     }
+     #sec{
+        display: flex;
+        align-items: center; 
+        flex-wrap: wrap;
+    }
+} 
+
+@media screen and (max-width: 500px) {
+    nav{
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+    }
+    #sec{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
