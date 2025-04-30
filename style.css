@@ -9,20 +9,23 @@ html{
 }
 
 .nav-link {
-    padding: 0em em;
+    padding: 0em 1em 0em 1em;
     border: solid;
     border-color: #072866;
     background-color: #e1ecff;
-    margin: 0.5em 0.5em 0.5em 0.5em;
     color: black;
     text-decoration: none;
 }
 
 nav strong {
-    padding: 0em em;
+    padding: 0em 1em 0em 1em;
     border: solid;
     border-color: #072866;
     background-color: #e1ecff;
+}
+
+nav li{
+    margin: 0.5em 0.5em 0.5em 0.5em;
 }
 
 header{
@@ -38,7 +41,6 @@ nav{
 .Home-logo{
     width:3.5em; 
     height:3.5em;
-    margin: 0.5em 1.5em 1em -1em;
 }
 
 main {
@@ -82,7 +84,6 @@ footer {
     #sec{
         display: flex;
         justify-content:center;
-        align-items: center; 
     }
 }
 
@@ -93,7 +94,6 @@ footer {
     #sec{
         display: flex;
         justify-content:left;
-        align-items:left; 
     }
 }
 
@@ -103,18 +103,16 @@ footer {
      }
      #sec{
         display: flex;
-        align-items: center; 
         flex-wrap: wrap;
-    }
+    } 
 } 
 
 @media screen and (max-width: 500px) {
     nav{
         justify-content: space-evenly;
         flex-wrap:wrap;
-    }
-    #sec{
-        display: flex;
-        flex-wrap: wrap;
+    }   
+    footer{
+            column-count:2;
     }
 }
